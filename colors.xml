@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primární barvy -->
+    <color name="primaryColor">#FF5722</color>
+    <color name="primaryVariantColor">#4F1BC5</color>
+    <color name="secondaryColor">#FF5722</color>
+
+    <!-- Barvy pozadí a textu -->
+    <color name="backgroundColor">#FFEB3B</color>
+    <color name="cardBackgroundColor">#FFC107</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#FFC107</color>
+
+    <!-- Barva rámečku a stínu -->
+    <color name="strokeColor">#F44336</color>
+</resources>
