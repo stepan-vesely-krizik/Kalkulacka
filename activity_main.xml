@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="white">
+    android:background="@color/backgroundColor">
 
     <!-- Titulek aplikace -->
     <TextView
@@ -16,7 +16,7 @@
         android:text="Kalkulačka"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="black"
+        android:textColor="@color/primaryColor"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp"
-        android:background="white"
+        android:background="@drawable/rounded_background"
         app:layout_constraintTop_toBottomOf="@id/textViewTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="První číslo"
-                android:textColor="black"
+                android:textColor="@color/textColorPrimary"
                 android:inputType="numberDecimal"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Druhé číslo"
-                android:textColor="black"
+                android:textColor="@color/textColorPrimary"
                 android:inputType="numberDecimal"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -79,8 +79,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Vypočítat"
-        android:textColor="black"
-
+        android:textColor="@color/cardBackgroundColor"
+        app:backgroundTint="@color/secondaryColor"
         app:layout_constraintTop_toBottomOf="@id/inputContainer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +94,7 @@
         android:text="Výsledek"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="black"
+        android:textColor="@color/textColorPrimary"
         android:gravity="center"
         app:layout_constraintTop_toBottomOf="@id/buttonCalculate"
         app:layout_constraintStart_toStartOf="parent"
